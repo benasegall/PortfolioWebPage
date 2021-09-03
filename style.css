@@ -1,24 +1,70 @@
-h1, h2, h3, p, ol, ul {
+background, color, font-family, font-size,
+height, margin, padding, text-align
+
+/*
+Section 1
+*/
+header, h1, h2, h3, h4, p, ol, ul {
   font-family: Arial, Helvetica, sans-serif;
+  color: #8f99a4;
 }
 
-header, footer {
-  color: navy ;
-  background-color: azure;
-  text-align: center;
-  padding: 5px;
-  margin: 5px
+h1 {
+  font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+  color: #8f99a4;
 }
+
+h4 {
+  font-size: 20px;
+	text-align: center;
+  color: lightslategray;
+  height: 75px;
+}
+
+h2 {
+  padding-top: 125px;
+}
+
+/*
+Section 2
+*/
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightslategray;
+  font-size: 12px
+}
+
+li {
+  padding-left: 75px;
+}
+
+/*
+Section 3
+*/
 
 a {
-  color: greenyellow;
+  font-size: 18px;
 }
 
-p {
-  font-size: 15px;
-  height: 50px
+/*
+footer
+*/
+footer {
+	height: 50px;
+  padding-top: 20px;
+	background-color: #bdcbd9;
 }
 
-body, hr{
-  background-color: cornflowerblue;
+p, ul, ol {
+  font-size: 12px
+}
+
+/*
+general
+*/
+
+center {
+  text-align: center;
 }
